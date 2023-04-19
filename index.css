@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;  
+}
+
+header{
+    text-align: center;
+    background: slategrey;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 1em;
+}
+
+section{
+    background: lightblue;
+    padding: 0 20%;
+}
+#card-grid{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.card{
+    
+    height: 100px;
+    background: white;
+    border-radius: 10%;
+    text-align: center;
+}
